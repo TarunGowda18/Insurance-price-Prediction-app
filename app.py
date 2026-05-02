@@ -60,4 +60,4 @@ if st.button('Predict'):
     # Otherwise, use the prediction directly
     output = round(np.exp(prediction[0]), 2)
     
-    st.success(f'Estimated Insurance Price: ${output}')
+    st.success(f'Estimated Insurance Price: ₹{output}')
